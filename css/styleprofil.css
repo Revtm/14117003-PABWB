@@ -1,0 +1,41 @@
+.kontainer1{
+  background-color: #60a3bc;
+}
+.row1{
+  padding: 30px;
+}
+
+.row2{
+  padding: 30px;
+}
+
+.kolomkedua1{
+  text-align: center;
+}
+
+.judulbagian2{
+  text-align: center;
+}
+
+.tulisanjudulbagian2{
+    padding-top: 20px;
+}
+
+.isifooter{
+  padding: 30px;
+}
+
+
+.kolomutama1{
+  text-align: center;
+}
+
+.kolomutama2{
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.tulisanutama{
+  text-align: left;
+}
