@@ -1,0 +1,44 @@
+%message-shared {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 1rem 0;
+color: #333;
+}
+// yang ini tidak akan ditulis di dalam CSS karena tidak pernah digunakan dalam
+@extends
+%equal-heights {
+display: flex;
+flex-wrap: wrap;
+}
+.message {
+@extend %message-shared;
+}
+
+%message-shared {
+border: 1px solid #ccc;
+padding: 10px;
+margin: 1rem 0;
+color: #333;
+}
+// yang ini tidak akan ditulis di dalam CSS karena tidak pernah digunakan dalam
+@extends
+%equal-heights {
+display: flex;
+flex-wrap: wrap;
+}
+.message {
+@extend %message-shared;
+}
+
+.success {
+@extend %message-shared;
+border-color: green;
+}
+.error {
+@extend %message-shared;
+border-color: red;
+}
+.warning {
+@extend %message-shared;
+border-color: orange;
+}

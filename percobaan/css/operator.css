@@ -1,0 +1,15 @@
+.container {
+  width: 100%;
+}
+
+article {
+  float: left;
+  width: 62.5%;
+}
+
+aside {
+  float: right;
+  width: 31.25%;
+}
+
+/*# sourceMappingURL=operator.css.map */

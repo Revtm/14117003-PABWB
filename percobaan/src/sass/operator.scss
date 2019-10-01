@@ -1,0 +1,13 @@
+.container{
+  width: 100%;
+}
+
+article{
+  float:left;
+  width: 600px / 960px * 100%;
+}
+
+aside{
+  float: right;
+  width: 300px / 960px * 100%;
+}

@@ -1,0 +1,17 @@
+.title {
+  background: #008080;
+  color: white;
+  text-align: center;
+  padding: 60px;
+  font-family: sans;
+}
+.title border {
+  top: 4px solid black;
+  bottom: 4px solid black;
+}
+.title .slogan {
+  font-size: 18px;
+  color: white;
+}
+
+/*# sourceMappingURL=Variabel-sass.css.map */
