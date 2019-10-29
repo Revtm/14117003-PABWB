@@ -21,10 +21,10 @@
     </br>
       <label>Golongan darah:</label>
       <select name="goldar">
-        <option value="">A</option>
-        <option value="">B</option>
-        <option value="">O</option>
-        <option value="">AB</option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="O">O</option>
+        <option value="AB">AB</option>
       </select>
     </br>
     </br>
