@@ -5,6 +5,41 @@
     <title>Data Mahasiswa </title>
   </head>
   <body>
-    
+    <div class = "tambahData">
+     <h2>Tambah Data</h2>
+
+     <form method="post" action="tambah.php" enctype="multipart/form-data">
+       NRP : <input type="text" name="nrp" requireds></br>
+       Nama : <input type="text" name="nama" requireds></br>
+       Alamat : <input type="text" name="alamat" requireds></br>
+       Foto : <input type="file" name="foto" requireds></br>
+       Jurusan :<select name="jurusan" required>
+         <option value="EL">Elektro</option>
+         <option value="IF">Informatika</option>
+         <option value="MA">Matematika</option>
+       </select></br></br>
+       <button type="submit" name="tambah" value="tambah">Tambah Data</button>
+     </form>
+    </div>
+
+  </br><hr>
+
+  <h2>Cari Data</h2>
+  <div class="cariData">
+    <form method="get" action="cari.php">
+      Nama : <input type="text" name="nama_cari">
+      <button type="submit" name="cari" value="cari">Cari</button>
+    </form>
+  </div>
+
+  </br><hr>
+
+  <h2>Hapus Data</h2>
+  <div class="habusData">
+    <form method="get" action="hapus.php">
+      NRP : <input type="text" name="nrp_hapus">
+      <button type="submit" name="hapus" value="hapus">Hapus</button>
+    </form>
+  </div>
   </body>
 </html>
