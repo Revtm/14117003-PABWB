@@ -11,7 +11,7 @@
     <form action ="login.php" method="post">
       Username: <input type="text" name="username" autofocus required>
       </br>
-      Password: <input type="text" name="password" required>
+      Password: <input type="password" name="password" required>
       </br>
       <button type="submit" name="submit" value="submit">Login</button>
     </form>

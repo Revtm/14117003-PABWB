@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -14,7 +15,11 @@
       $isi = $_POST['isi'];
 
       $query2 = mysqli_query($konek-> koneksi, "update artikel set judul='$judul', isi='$isi' where id_artikel=$id ");
-
+      if($query2){
+        header('location: artikel.php?edit=berhasil');
+      }else{
+        header('location: artikel.php?edit=gagal');
+      }
     }
 
       if(isset($_GET['id_artikel'])){
